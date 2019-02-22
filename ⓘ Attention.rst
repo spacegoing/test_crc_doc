@@ -13,9 +13,14 @@ sudo -H pip install rstcheck
 ::
 
     rstcheck <filename>.rst \
-    	--report warning \
+    	--report warning \\ |IMG1|\ 
+
     	--ignore-directives http:post,http:get,http:delete,http:post \
     	--ignore-roles http:post,http:get,http:delete,http:post,http:statuscode
 
 
 .. bottom of content
+
+.. |IMG1| image:: static/ⓘ_Attention_1.png
+   :height: 540 px
+   :width: 624 px
